@@ -96,7 +96,7 @@ def agregar(emp):
     empleados = {}
     while True:
         
-        ced = leerInt("Ingrese el id del empleado:  ")
+        id = leerInt("Ingrese el id del empleado:  ")
         nomb = leerStr("Ingrese el nombre del empleado:  ")    
         horas = leerHora("Ingrese la cantidad de horas laboradas:  ")
         vHora = leerValorHora("Ingrese el valor de la hora entre $8,000 y $150,000:  ")
